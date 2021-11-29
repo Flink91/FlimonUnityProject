@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour
 {
-    public transform enemyPrefab;
+    // public transform enemyPrefab;
 
     public float timeBetweenWaves = 5f;
 

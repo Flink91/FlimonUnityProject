@@ -23,11 +23,11 @@ public class NavMeshAgentBrain : MonoBehaviour
             Debug.Log("go");
             GetComponent<NavMeshAgent>().SetDestination(GoalPoint.transform.position);
         }
-         // Check if we've reached the destination
-         
-        if (Vector3.Distance (GoalPoint.transform.position, target.position) > 1.0f) {
-			GoalPoint.transform.position = target.position;
-			print("da");
-		}
+        // TODO: Check if we've reached the destination
+        // GetComponent<NavMeshAgent>().SetDestination(GoalPoint.transform.position);  
+        // if (Vector3.Distance (destination, target.position) > 1.0f) {
+		// 	destination = target.position;
+		// 	agent.destination = destination;
+		// }
     }
 }
