@@ -9,6 +9,10 @@ public class CameraController : MonoBehaviour
     //stop cam movement at map border
     public Vector2 panLimit;
 
+    public float scrollSpeed = 20f;
+    public float minY = 10f;
+    public float maxY = 40f;
+
     // Update is called once per frame
     void Update()
     {
@@ -28,9 +32,13 @@ public class CameraController : MonoBehaviour
             pos.x += panSpeed * Time.deltaTime;
         }
 
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        pos.y -= scroll * scrollSpeed * 100 * Time.deltaTime;
+
 
         pos.x = Mathf.Clamp(pos.x, -panLimit.x, panLimit.x);
         pos.z = Mathf.Clamp(pos.z, -panLimit.y, panLimit.y);
+        pos.y = Mathf.Clamp(pos.y, minY, maxY);
         
 
         transform.position = pos;
