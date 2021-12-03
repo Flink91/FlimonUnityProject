@@ -395,6 +395,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 6360845795529995699, guid: 62f2a14f996bc5b4f8805d7c946bb202, type: 3}
+      propertyPath: m_Name
+      value: firePoint
+      objectReference: {fileID: 0}
     - target: {fileID: 8603996103970109846, guid: 62f2a14f996bc5b4f8805d7c946bb202, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -464,9 +468,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 15
+  fireRate: 5
   enemyTag: Enemy
   partToRotate: {fileID: 606674420}
   turnSpeed: 5
+  bulletPrefab: {fileID: 3170987320901771035, guid: e64a0c4db432ebc4296f9078fc0dde53, type: 3}
+  firePoint: {fileID: 875070740}
 --- !u!1001 &736356807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -663,6 +670,11 @@ MonoBehaviour:
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
   m_NavMeshData: {fileID: 23800000, guid: 4820f745a4fb4d14e982bc5cea675aca, type: 2}
+--- !u!4 &875070740 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 788257644417342439, guid: 62f2a14f996bc5b4f8805d7c946bb202, type: 3}
+  m_PrefabInstance: {fileID: 606674418}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &951868521
 GameObject:
   m_ObjectHideFlags: 0
