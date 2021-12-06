@@ -10,8 +10,10 @@ public class TurretBrain : MonoBehaviour
     [Header("Attributes")]
 
     public float range = 15f;
-    public float fireRate = 0.1f;
-    private float fireCountdown = 0f;
+    public float fireRate = 1f;
+    // this will eat resources if set too low
+    public float retargetRate = 0.5f;
+    private float fireCountdown = 0.2f;
 
 
     [Header("Setup")]
@@ -29,7 +31,7 @@ public class TurretBrain : MonoBehaviour
     void Start()
     {
         // update target straight away and then every second look if another enemy is closer
-        InvokeRepeating("UpdateTarget", 0f, 1f);
+        InvokeRepeating("UpdateTarget", 0f, retargetRate);
     }
 
 
@@ -76,8 +78,8 @@ public class TurretBrain : MonoBehaviour
         if (fireCountdown <= 0f)
         {
             //time to shoot
-            Shoot();
             fireCountdown = 1f / fireRate;
+            Shoot();
         }
         fireCountdown -= Time.deltaTime;
 
@@ -86,7 +88,6 @@ public class TurretBrain : MonoBehaviour
     void Shoot()
     {
         //spawn bullet and set target
-        Debug.Log("SHOOT");
         GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bullet = bulletGO.GetComponent<Bullet>();
 

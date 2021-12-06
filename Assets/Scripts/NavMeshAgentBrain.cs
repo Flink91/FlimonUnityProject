@@ -13,7 +13,7 @@ public class NavMeshAgentBrain : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("SpawnNavMeshAgent",1);
+        Invoke("SpawnNavMeshAgent", 0f);
     }
 
     // Update is called once per frame
@@ -22,7 +22,6 @@ public class NavMeshAgentBrain : MonoBehaviour
         // if(ShouldIMove && myNavMeshAgent.enabled){   
         // }
           if( myNavMeshAgent && myNavMeshAgent.remainingDistance <= 0.67f ) {
-            Debug.Log("bin da");
             DestroyImmediate(myNavMeshAgent.gameObject);
         }
     }
