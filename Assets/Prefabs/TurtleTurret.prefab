@@ -159,6 +159,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turtle
       objectReference: {fileID: 0}
+    - target: {fileID: 6026774223963284298, guid: 254d9bc68461bab44918400c9d2871f5, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6026774223963284298, guid: 254d9bc68461bab44918400c9d2871f5, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6026774223963284298, guid: 254d9bc68461bab44918400c9d2871f5, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 254d9bc68461bab44918400c9d2871f5, type: 3}
 --- !u!4 &2247115158490359220 stripped
