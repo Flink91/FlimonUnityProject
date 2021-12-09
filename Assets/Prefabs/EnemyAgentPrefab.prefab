@@ -132,4 +132,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShouldIMove: 1
-  GoalPoint: {fileID: 873571013517658577, guid: 21057bea497a32742a6cc5d929b4ec7e, type: 3}
+  GoalPoint: {fileID: 2880352353872040975, guid: c80ff8245df57f443b66080b38df8304, type: 3}
