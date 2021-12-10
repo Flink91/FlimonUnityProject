@@ -12,6 +12,14 @@ public class CameraController : MonoBehaviour
     public float scrollSpeed = 20f;
     public float minY = 10f;
     public float maxY = 40f;
+    public float zoomSensitivity= 15.0f;
+    public float zoomSpeed= 5.0f;
+
+    private float zoom;
+
+    void Start(){
+        zoom = Camera.main.fieldOfView;
+    }
 
     // Update is called once per frame
     void Update()
@@ -21,19 +29,23 @@ public class CameraController : MonoBehaviour
 
         if(Input.GetKey("w")){
             pos.z += panSpeed * Time.deltaTime;
+            pos.x -= panSpeed * Time.deltaTime;
         }
         if(Input.GetKey("a")){
             pos.x -= panSpeed * Time.deltaTime;
+             pos.z -= panSpeed * Time.deltaTime;
         }
         if(Input.GetKey("s")){
             pos.z -= panSpeed * Time.deltaTime;
+            pos.x += panSpeed * Time.deltaTime;
         }
         if(Input.GetKey("d")){
+            pos.z += panSpeed * Time.deltaTime;
             pos.x += panSpeed * Time.deltaTime;
         }
 
-        float scroll = Input.GetAxis("Mouse ScrollWheel");
-        pos.y -= scroll * scrollSpeed * 100 * Time.deltaTime;
+        zoom -= Input.GetAxis("Mouse ScrollWheel") * zoomSensitivity;
+         zoom = Mathf.Clamp(zoom, minY, maxY);
 
 
         pos.x = Mathf.Clamp(pos.x, -panLimit.x, panLimit.x);
@@ -43,4 +55,8 @@ public class CameraController : MonoBehaviour
 
         transform.position = pos;
     }
+
+    void LateUpdate() {
+         Camera.main.fieldOfView = Mathf.Lerp (Camera.main.fieldOfView, zoom, Time.deltaTime * zoomSpeed);
+     }
 }
