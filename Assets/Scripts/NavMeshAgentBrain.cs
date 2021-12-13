@@ -22,6 +22,8 @@ public class NavMeshAgentBrain : MonoBehaviour
         // if(ShouldIMove && myNavMeshAgent.enabled){   
         // }
           if( myNavMeshAgent && myNavMeshAgent.remainingDistance <= 0.67f ) {
+            Debug.Log("reached goal: " + myNavMeshAgent.remainingDistance + " :: " + GoalPoint.transform.position);
+            //if the goal point is too close to 0,0,0, the enemy will be destroyed while instantiating, watch out!
             DestroyImmediate(myNavMeshAgent.gameObject);
         }
     }

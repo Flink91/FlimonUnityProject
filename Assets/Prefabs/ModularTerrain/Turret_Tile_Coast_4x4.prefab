@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4438429464398830752}
   - component: {fileID: 736236835391509253}
   - component: {fileID: 3302076176977192911}
+  - component: {fileID: -2315660124304724131}
+  - component: {fileID: 1707658851548629833}
   m_Layer: 0
   m_Name: Turret_Tile_Coast_4x4
   m_TagString: buildable
@@ -59,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e440d55081db0f445856a27bfbc082d4, type: 2}
+  - {fileID: 2100000, guid: 602872df0accb9a4cbf32e101ab761cb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -81,3 +83,30 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-2315660124304724131
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3950686813218063898}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4.000001, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: 0.5000001}
+--- !u!114 &1707658851548629833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3950686813218063898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48c14323e6a76441b92c0bcf58c376e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverColor: {r: 0.4528302, g: 0.38695428, b: 0.3268067, a: 1}
+  positionOffset: {x: 0, y: 1.5, z: 0}

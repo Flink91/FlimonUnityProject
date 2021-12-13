@@ -13,6 +13,11 @@ public class WaveSpawner : MonoBehaviour
     public Text waveCountdownText;
     private int waveIndex = 0;
 
+
+		void Start(){
+					Debug.Log("SpawnEnemy");
+					Instantiate(enemyAgentPrefab, spawnPoint.position, spawnPoint.rotation);
+		}
     void Update(){
        if (countdown <= 0f)
 		{
@@ -37,6 +42,7 @@ public class WaveSpawner : MonoBehaviour
 
     void SpawnEnemy ()
 	{
+		Debug.Log("SpawnEnemy"+ enemyAgentPrefab +""+ spawnPoint.position);
 		var newEnemy = Instantiate(enemyAgentPrefab, spawnPoint.position, spawnPoint.rotation);
         newEnemy.transform.parent = GameObject.Find("Enemies").transform;
 	}

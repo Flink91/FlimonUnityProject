@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43749022, g: 0.48531085, b: 0.5655851, a: 1}
+  m_IndirectSpecularColor: {r: 0.4374901, g: 0.4853112, b: 0.56558615, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -245,6 +245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &22018602 stripped
@@ -306,6 +310,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -431,6 +439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &123947187 stripped
@@ -492,6 +504,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -576,7 +592,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &140731830
 Transform:
@@ -586,7 +602,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140731829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 572381209}
@@ -757,7 +773,7 @@ Transform:
   - {fileID: 199598141}
   - {fileID: 1985242802}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &143178198 stripped
 Transform:
@@ -818,6 +834,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -881,6 +901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &159654754 stripped
@@ -942,6 +966,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -1005,6 +1033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
 --- !u!4 &164732587 stripped
@@ -1066,6 +1098,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -1134,6 +1170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &188693722 stripped
@@ -1200,6 +1240,10 @@ PrefabInstance:
     - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
@@ -1330,6 +1374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &200563853 stripped
@@ -1454,6 +1502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &210518125 stripped
@@ -1521,6 +1573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &254397515 stripped
@@ -1533,16 +1589,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    m_TransformParent: {fileID: 140731830}
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
     - target: {fileID: 3496125577738790930, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_Name
       value: EnemySpawner
       objectReference: {fileID: 0}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_RootOrder
+      value: 19
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3
@@ -1557,44 +1617,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_LocalPosition.x
+      value: 4
       value: 28
       objectReference: {fileID: 0}
+    - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_LocalPosition.z
+      value: 12
       value: 28
       objectReference: {fileID: 0}
+    - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_LocalRotation.w
+      value: 0.7071068
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_LocalRotation.x
+      value: -0.7071068
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_LocalRotation.y
+      value: -0
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_LocalRotation.z
+      value: -0
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
     - target: {fileID: 4309781136788648616, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_Name
+      value: Ground_Tile_Coast_4x4 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ea0d0d5e213f6f42ab25862ededabdf, type: 3}
 --- !u!1001 &256262271
@@ -1654,6 +1736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c56bd6a6405ecfc41b6132b245649b10, type: 3}
+      objectReference: {fileID: 0}
 --- !u!1001 &261348749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1709,6 +1792,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &261348750 stripped
@@ -1771,6 +1857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
 --- !u!4 &267050091 stripped
@@ -1832,6 +1922,10 @@ PrefabInstance:
     - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
@@ -1900,6 +1994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_3Coast_1Water (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
 --- !u!4 &290250572 stripped
@@ -1962,12 +2060,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &294832828 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
   m_PrefabInstance: {fileID: 294832827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &309552712 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+  m_PrefabInstance: {fileID: 4725720585424059385}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &312315573
 PrefabInstance:
@@ -2086,6 +2193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_3Coast_1Water (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
 --- !u!4 &312543740 stripped
@@ -2147,6 +2258,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -2277,6 +2392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &339520473 stripped
@@ -2338,6 +2457,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -2525,6 +2648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
 --- !u!4 &392513558 stripped
@@ -2587,6 +2714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &400742245 stripped
@@ -2648,6 +2779,10 @@ PrefabInstance:
     - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_3Coast_1Water (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
@@ -2742,7 +2877,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431224575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1328000231}
@@ -2801,7 +2936,7 @@ Transform:
   - {fileID: 348181442}
   - {fileID: 687129636}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &434419109
 PrefabInstance:
@@ -3039,6 +3174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &462312924 stripped
@@ -3163,6 +3302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &486446204 stripped
@@ -3225,6 +3368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
 --- !u!4 &495895250 stripped
@@ -3286,6 +3433,10 @@ PrefabInstance:
     - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
@@ -3411,6 +3562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &514255330 stripped
@@ -3472,6 +3627,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -3592,6 +3751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &525900430 stripped
@@ -3609,6 +3772,10 @@ PrefabInstance:
     - target: {fileID: 1356857825022664173, guid: 861ee4b99b0c0a54bb86a32782654dda, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_3Coast_1Water_Corner (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356857825022664173, guid: 861ee4b99b0c0a54bb86a32782654dda, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1846290769122363223, guid: 861ee4b99b0c0a54bb86a32782654dda, type: 3}
       propertyPath: m_RootOrder
@@ -3772,6 +3939,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -3954,6 +4125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
 --- !u!4 &565137717 stripped
@@ -4091,6 +4266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_3Coast_1Water_Corner
       objectReference: {fileID: 0}
+    - target: {fileID: 1356857825022664173, guid: 861ee4b99b0c0a54bb86a32782654dda, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1846290769122363223, guid: 861ee4b99b0c0a54bb86a32782654dda, type: 3}
       propertyPath: m_RootOrder
       value: 93
@@ -4196,6 +4375,10 @@ PrefabInstance:
     - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
@@ -4388,6 +4571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &612176131 stripped
@@ -4449,6 +4636,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -4512,6 +4703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &617980838 stripped
@@ -4573,6 +4768,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -4636,6 +4835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &625281485 stripped
@@ -4698,6 +4901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &630792803 stripped
@@ -4759,6 +4966,10 @@ PrefabInstance:
     - target: {fileID: 7743914909975496078, guid: 8488acd1f1af05d459f725ca51bcad75, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_4Coast_Water_River (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7743914909975496078, guid: 8488acd1f1af05d459f725ca51bcad75, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8488acd1f1af05d459f725ca51bcad75, type: 3}
@@ -4884,6 +5095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_3Coast_1Water
       objectReference: {fileID: 0}
+    - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
 --- !u!4 &645093362 stripped
@@ -4961,6 +5176,67 @@ PrefabInstance:
     m_TransformParent: {fileID: 431224576}
     m_Modifications:
     - target: {fileID: 3970345673962213194, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_Name
+      value: Grass (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000000119209275
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7002253
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7002253
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.098410234
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.098410234
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+--- !u!4 &673042768 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
+  m_PrefabInstance: {fileID: 673042767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &675199395
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1052683497}
+    m_Modifications:
       propertyPath: m_Name
       value: Grass (4)
       objectReference: {fileID: 0}
@@ -5069,6 +5345,10 @@ PrefabInstance:
     - target: {fileID: 7743914909975496078, guid: 8488acd1f1af05d459f725ca51bcad75, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_4Coast_Water_River
+      objectReference: {fileID: 0}
+    - target: {fileID: 7743914909975496078, guid: 8488acd1f1af05d459f725ca51bcad75, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8488acd1f1af05d459f725ca51bcad75, type: 3}
@@ -5194,6 +5474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &691000389 stripped
@@ -5255,6 +5539,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -5437,6 +5725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &725639521 stripped
@@ -5444,6 +5736,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
   m_PrefabInstance: {fileID: 725639520}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &725996182
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1052683497}
+    m_Modifications:
+    - target: {fileID: 3950686813218063898, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_Name
+      value: Turret_Tile_Coast_4x4 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
 --- !u!1001 &737934756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5593,7 +5942,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758158748}
   m_LocalRotation: {x: 0.6427875, y: -0, z: -0, w: 0.7660445}
-  m_LocalPosition: {x: 4, y: 22.09, z: -1.0500011}
+  m_LocalPosition: {x: 4, y: 1, z: -1.0500011}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6073,6 +6422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &861265629 stripped
@@ -6254,6 +6607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
 --- !u!4 &901949997 stripped
@@ -6316,6 +6673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &905234940 stripped
@@ -6356,6 +6717,7 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &955704437
+--- !u!1001 &955704437
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -6384,27 +6746,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9608518
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.27706307
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 32.17
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -6423,6 +6779,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 140731830}
+      value: 0.9608518
+      value: 0
+      value: 0.27706307
+      value: 0
+      value: 0
+      value: 32.17
     m_Modifications:
     - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_RootOrder
@@ -6471,6 +6833,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -6533,6 +6899,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -6782,6 +7152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1029327538 stripped
@@ -6875,11 +7249,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052683496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1054942921
 PrefabInstance:
@@ -6935,6 +7309,10 @@ PrefabInstance:
     - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
@@ -7055,6 +7433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1077408779 stripped
@@ -7117,6 +7499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner
       objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
 --- !u!4 &1079315383 stripped
@@ -7178,6 +7564,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -7303,6 +7693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1133481649 stripped
@@ -7370,6 +7764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1141746484 stripped
@@ -7431,6 +7829,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -7613,6 +8015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1181358103 stripped
@@ -7674,6 +8080,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -7737,6 +8147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &1219258663 stripped
@@ -7798,6 +8212,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -8042,6 +8460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1243498857 stripped
@@ -8104,6 +8526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_3Coast_1Water (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
 --- !u!4 &1250852828 stripped
@@ -8165,6 +8591,10 @@ PrefabInstance:
     - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
@@ -8346,6 +8776,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -8533,6 +8967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1285157837 stripped
@@ -8594,6 +9032,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -8657,6 +9099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &1288779187 stripped
@@ -8718,6 +9164,10 @@ PrefabInstance:
     - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
@@ -8781,6 +9231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
 --- !u!4 &1297618238 stripped
@@ -8842,6 +9296,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -8909,6 +9367,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -9158,6 +9620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1365883772 stripped
@@ -9287,6 +9753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret_Tile_Coast_4x4_2way_corner (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01d3028b8cadb0f4db9a010f962d36cd, type: 3}
 --- !u!1001 &1410059077
@@ -9343,6 +9813,10 @@ PrefabInstance:
     - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
@@ -9406,6 +9880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1411215794 stripped
@@ -9467,6 +9945,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -9530,6 +10012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_3Coast_1Water (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
 --- !u!4 &1421391064 stripped
@@ -9591,6 +10077,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -9654,6 +10144,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1437293448 stripped
@@ -9666,6 +10160,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3540499166057937617, guid: ca756f1d1f38f724ea3faf7f17fc2499, type: 3}
   m_PrefabInstance: {fileID: 2028639042}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1455554331
 --- !u!1001 &1455554331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9782,6 +10277,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -9907,6 +10406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1478934588 stripped
@@ -9968,6 +10471,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -10160,6 +10667,87 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
   m_PrefabInstance: {fileID: 1494829395}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1504723384
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2234850817219186930, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186930, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186930, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186930, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186930, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186930, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186930, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186930, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186930, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186930, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186930, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186931, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: bfda0b6346f75864aba1baa67b08527d, type: 2}
+    - target: {fileID: 2234850817219186931, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_UseGeometry
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817219186941, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_Name
+      value: NavMesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817811648648, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 29.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817811648648, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817811648648, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234850817811648648, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5828066bc7a93c64f8d90711b83b1cff, type: 3}
 --- !u!1001 &1507283935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10277,6 +10865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &1508389022 stripped
@@ -10338,6 +10930,10 @@ PrefabInstance:
     - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
@@ -10401,6 +10997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &1518619732 stripped
@@ -10408,6 +11008,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3814297451205109320, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
   m_PrefabInstance: {fileID: 1518619731}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1518774328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1518774329}
+  m_Layer: 0
+  m_Name: Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1518774329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518774328}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.258047, y: 1, z: 20.04991}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1529263605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10462,6 +11092,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -10525,6 +11159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1529423255 stripped
@@ -10542,6 +11180,10 @@ PrefabInstance:
     - target: {fileID: 268518591689152776, guid: a8025b0109dd3254ab934638df9c136a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water_Corner
+      objectReference: {fileID: 0}
+    - target: {fileID: 268518591689152776, guid: a8025b0109dd3254ab934638df9c136a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 644622295935484850, guid: a8025b0109dd3254ab934638df9c136a, type: 3}
       propertyPath: m_RootOrder
@@ -10648,6 +11290,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -10887,6 +11533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
 --- !u!4 &1563063683 stripped
@@ -10894,6 +11544,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4770126482422150712, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
   m_PrefabInstance: {fileID: 1563063682}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1571384556
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7149547420295697608, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: orthographic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697609, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697609, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697609, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697609, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697609, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.81945395
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697609, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.42667162
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697609, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.33942893
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697609, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.17673317
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697609, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 55.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697609, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697609, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697610, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: maxY
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697610, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: minY
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697610, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: panLimit.x
+      value: 35.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697610, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: panLimit.y
+      value: 35.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149547420295697613, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
+      propertyPath: m_Name
+      value: Main Camera
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7bbc1741bc825394a9386b3e5c6cce52, type: 3}
 --- !u!1001 &1572579691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10903,7 +11630,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_RootOrder
-      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10919,19 +11645,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10949,6 +11671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1572579692 stripped
@@ -10956,6 +11682,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
   m_PrefabInstance: {fileID: 1572579691}
   m_PrefabAsset: {fileID: 0}
+      value: 32
+      value: 1
+      value: 0
+      value: 0
+      value: 0
 --- !u!1001 &1583269683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11010,6 +11741,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -11388,6 +12123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1622471494 stripped
@@ -11449,6 +12188,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -11755,6 +12498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &1681332322 stripped
@@ -11816,6 +12563,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -11946,6 +12697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1702326020 stripped
@@ -12007,6 +12762,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -12070,6 +12829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1717254588 stripped
@@ -12131,6 +12894,10 @@ PrefabInstance:
     - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
@@ -12256,6 +13023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1745773801 stripped
@@ -12317,6 +13088,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -12387,6 +13162,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
   m_PrefabInstance: {fileID: 1808888478}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1809136167 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4438429464398830752, guid: 99c19b680bc26514abe0c06bf1226049, type: 3}
+  m_PrefabInstance: {fileID: 725996182}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1816018727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12441,6 +13221,10 @@ PrefabInstance:
     - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_3Coast_1Water (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
@@ -12571,6 +13355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &1862851656 stripped
@@ -12632,6 +13420,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -12695,6 +13487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &1870890965 stripped
@@ -12757,6 +13553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1874338503 stripped
@@ -12818,6 +13618,10 @@ PrefabInstance:
     - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_3Coast_1Water (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
@@ -13000,6 +13804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1904849473 stripped
@@ -13061,6 +13869,10 @@ PrefabInstance:
     - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
@@ -13124,6 +13936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
 --- !u!4 &1920610544 stripped
@@ -13185,6 +14001,10 @@ PrefabInstance:
     - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_3Coast_1Water (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3158343775582524001, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b9cfe30deb45f04eb4404ba34f1ebd6, type: 3}
@@ -13248,6 +14068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1926107392 stripped
@@ -13310,6 +14134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1928381502 stripped
@@ -13346,19 +14174,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9608518
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.27706307
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13366,7 +14190,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 32.17
       objectReference: {fileID: 0}
     - target: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -13379,6 +14202,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4346625609312933360, guid: d269ed063f4866d4baa4fb45b4b47971, type: 3}
   m_PrefabInstance: {fileID: 1947459142}
   m_PrefabAsset: {fileID: 0}
+      value: 0.9608518
+      value: 0
+      value: 0.27706307
+      value: 0
+      value: 32.17
 --- !u!1001 &1965141086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13508,6 +14336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1968617448 stripped
@@ -13570,6 +14402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &1970389484 stripped
@@ -13631,6 +14467,10 @@ PrefabInstance:
     - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
@@ -13880,6 +14720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &1991466140 stripped
@@ -14009,6 +14853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &2009526570 stripped
@@ -14128,6 +14976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
 --- !u!4 &2028678844 stripped
@@ -14189,6 +15041,10 @@ PrefabInstance:
     - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_2Coast_2Water (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586014613366275314, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f62422962083dbd4e90c2f4022029ebc, type: 3}
@@ -14252,6 +15108,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &2052738327 stripped
@@ -14313,6 +15173,10 @@ PrefabInstance:
     - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
       propertyPath: m_Name
       value: Ground_Tile_1Coast_3Water_Corner (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5294320491195329666, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
@@ -14525,6 +15389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &2111120432 stripped
@@ -14649,6 +15517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &2124416198 stripped
@@ -14711,6 +15583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_Tile_Coast_4x4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6637116395594394378, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
 --- !u!4 &2145852350 stripped
@@ -14718,3 +15594,149 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6291553551573545392, guid: 7b7660b781907d140a071632a7694e8a, type: 3}
   m_PrefabInstance: {fileID: 2145852349}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4565809739440611119
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 120750189868776864, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013489910119734228, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040971, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040971, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040971, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040971, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040971, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040971, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040971, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040971, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040971, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040971, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040971, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880352353872040975, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_Name
+      value: GoalPointLevel1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578417362999375973, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235185425791567349, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558399428340970906, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481850452636258032, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6690113388278450250, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c80ff8245df57f443b66080b38df8304, type: 3}
+--- !u!1001 &4725720585424059385
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 28.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 300510842061329915, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 300510842061329919, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_Name
+      value: SpawnPointLevel1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3745664677288691142, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 141d00b2cd4cc7f40a5ecc7b2a87db00, type: 3}
