@@ -479,6 +479,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
+      propertyPath: anotherTurret.prefab
+      value: 
+      objectReference: {fileID: 8238022779771928517, guid: 242cd3aac4807c34ca8f749f345820b1, type: 3}
+    - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
+      propertyPath: standardTurret.prefab
+      value: 
+      objectReference: {fileID: 8238022779771928517, guid: 242cd3aac4807c34ca8f749f345820b1, type: 3}
     - target: {fileID: 1997010307, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
