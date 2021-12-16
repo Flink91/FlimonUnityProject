@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 703779434987255047}
   - component: {fileID: 3323837820882321869}
   - component: {fileID: -6164242961164745651}
-  - component: {fileID: 4031036602422782162}
+  - component: {fileID: 7496713380328549548}
   m_Layer: 0
   m_Name: Turret_Tile_Coast_4x4_1way
   m_TagString: Untagged
@@ -96,7 +96,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4, y: 1, z: 4}
   m_Center: {x: 0, y: 0.5, z: 0}
---- !u!114 &4031036602422782162
+--- !u!114 &7496713380328549548
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,6 +108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a48c14323e6a76441b92c0bcf58c376e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  positionOffset: {x: 0, y: 0, z: 0}
+  hoverColor: {r: 0.69455355, g: 0.8867924, b: 0.50614095, a: 0}
+  positionOffset: {x: 0, y: 1, z: 0}
   turret: {fileID: 0}

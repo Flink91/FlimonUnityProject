@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4713264028960551594}
   - component: {fileID: 8558874749296377103}
   - component: {fileID: 5846741545193966021}
+  - component: {fileID: 5849600008848188569}
   m_Layer: 0
   m_Name: Turtle_Projectile
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5342166381165127696}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5849600008848188569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5342166381165127696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98397b2eb1f1f143b0a7998a4691aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
