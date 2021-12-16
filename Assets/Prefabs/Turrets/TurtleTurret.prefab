@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892965286080142755}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -72.872055, y: 10.458468, z: 5.7829485}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.6666666, y: 1.6666666, z: 1.6666666}
   m_Children:
   - {fileID: 3891096204536744958}
@@ -56,7 +56,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8238022779771928517}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.345041, y: 3.65, z: 0.59}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children:
   - {fileID: 7850397707158281678}
@@ -76,13 +76,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 8
-  fireRate: 5
+  fireRate: 1
   retargetRate: 0.5
   enemyTag: Enemy
-  partToRotate: {fileID: 0}
+  partToRotate: {fileID: 7850397707158281678}
   turnSpeed: 5
   bulletPrefab: {fileID: 3170987320901771035, guid: e64a0c4db432ebc4296f9078fc0dde53, type: 3}
-  firePoint: {fileID: 0}
+  firePoint: {fileID: 823469874764335825}
 --- !u!1001 &2513261965110723362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -143,5 +143,10 @@ PrefabInstance:
 --- !u!4 &3891096204536744958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1666073549164792028, guid: 8ce7f3b7deabbec478c18a31f7e75021, type: 3}
+  m_PrefabInstance: {fileID: 2513261965110723362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &823469874764335825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2994167035035683315, guid: 8ce7f3b7deabbec478c18a31f7e75021, type: 3}
   m_PrefabInstance: {fileID: 2513261965110723362}
   m_PrefabAsset: {fileID: 0}
