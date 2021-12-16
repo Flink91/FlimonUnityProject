@@ -41,6 +41,7 @@ public class BuildManager : MonoBehaviour {
 		if (PlayerStats.Money >= turretToBuild.cost)
 		{
 			PlayerStats.Money -= turretToBuild.cost;
+			Debug.Log("hi" + node);
 			GameObject turret = (GameObject)Instantiate(turretToBuild.prefab, node.GetBuildPosition(), Quaternion.identity);
 			node.turret = turret;
 			turretToBuild = null;
