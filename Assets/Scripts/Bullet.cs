@@ -35,6 +35,7 @@ public class Bullet : MonoBehaviour
 
     void HitTarget()
     {
+        PlayerStats.Money++;
         Destroy(target.gameObject);
         Destroy(gameObject);
     }
