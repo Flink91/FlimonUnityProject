@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1666073549164792028}
   - component: {fileID: 2355609678251771769}
   - component: {fileID: 528110606788309939}
-  - component: {fileID: 6098521336941447825}
   m_Layer: 0
   m_Name: Turtle
   m_TagString: Untagged
@@ -83,26 +82,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6098521336941447825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2041473943576253030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0033ba80adb25945aaca1fdbe749339, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  range: 8
-  fireRate: 5
-  retargetRate: 0.5
-  enemyTag: Enemy
-  partToRotate: {fileID: 0}
-  turnSpeed: 5
-  bulletPrefab: {fileID: 5342166381165127696, guid: 39473bb94540b844daee922e7f9b1556, type: 3}
-  firePoint: {fileID: 2994167035035683315}
 --- !u!1 &2916863626784345444
 GameObject:
   m_ObjectHideFlags: 0

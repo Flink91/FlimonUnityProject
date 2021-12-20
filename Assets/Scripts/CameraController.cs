@@ -24,6 +24,12 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //disable camera when game is over
+        if (GameManager.GameIsOver)
+        {
+            this.enabled = false;
+            return;
+        }
         //get current cam position
         Vector3 pos = transform.position;
 
