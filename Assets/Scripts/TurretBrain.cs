@@ -69,7 +69,7 @@ public class TurretBrain : MonoBehaviour
 
         //Target lock on
         Vector3 dir = target.position - transform.position;
-        Quaternion lookRotation = Quaternion.LookRotation(dir);
+        Quaternion lookRotation = Quaternion.LookRotation(-dir);
 
         //smoothly rotate to the next target with lerp
         Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
