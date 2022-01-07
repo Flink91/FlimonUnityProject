@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e7d1b9646195d5043b74ee58137cf1e4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Maritime Tropical Neue Double
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d7ea3425acbf40045b5ceb7bc963c328, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
