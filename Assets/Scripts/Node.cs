@@ -28,19 +28,21 @@ public class Node : MonoBehaviour {
 
 	void OnMouseDown ()
     {
+
+        // prevent UI clicks to also go through to the game world
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
         if (turret != null)
         {
-            Debug.Log("Can't build there! - TODO: Display on screen.");
+            buildManager.SelectNode(this);
             return;
         }
 
         // prevent building with turret as null
         if (!buildManager.CanBuild)
             return;
-        // prevent UI clicks to also go through to the game world
-        if (EventSystem.current.IsPointerOverGameObject())
-            return;
-
+ 
         buildManager.buildTurretOn(this);
         
     }
