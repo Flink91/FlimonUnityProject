@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 7672940546283120690}
   - component: {fileID: 8317742354970904741}
   m_Layer: 0
-  m_Name: TurtleTurret
+  m_Name: TurtleTurret 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,8 +75,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0033ba80adb25945aaca1fdbe749339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 9
-  fireRate: 0.5
+  range: 10
+  fireRate: 2
   retargetRate: 0.5
   enemyTag: Enemy
   partToRotate: {fileID: 7850397707158281678}
@@ -96,15 +96,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1666073549164792028, guid: 8ce7f3b7deabbec478c18a31f7e75021, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.6
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1666073549164792028, guid: 8ce7f3b7deabbec478c18a31f7e75021, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.6
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1666073549164792028, guid: 8ce7f3b7deabbec478c18a31f7e75021, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.6
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1666073549164792028, guid: 8ce7f3b7deabbec478c18a31f7e75021, type: 3}
       propertyPath: m_LocalPosition.x
