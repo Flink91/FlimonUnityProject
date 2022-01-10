@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class NavMeshAgentBrain : MonoBehaviour
+public class EnemyAgent : MonoBehaviour
 {
 
     public bool ShouldIMove;
     public GameObject GoalPoint;
-    NavMeshAgent myNavMeshAgent;
+    UnityEngine.AI.NavMeshAgent myNavMeshAgent;
 
     // Start is called before the first frame update
     void Start()
@@ -22,16 +22,28 @@ public class NavMeshAgentBrain : MonoBehaviour
         // if(ShouldIMove && myNavMeshAgent.enabled){   
         // }
           if( myNavMeshAgent && myNavMeshAgent.remainingDistance <= 0.67f ) {
-            Debug.Log("reached goal: " + myNavMeshAgent.remainingDistance + " :: " + GoalPoint.transform.position);
-            //if the goal point is too close to 0,0,0, the enemy will be destroyed while instantiating, watch out!
             PlayerStats.Lives--;
-            DestroyImmediate(myNavMeshAgent.gameObject);
+            Die();
         }
+    }
+
+    public void TakeDamage()
+    {
+        Die();
+    }
+
+    void Die()
+    {
+        Debug.Log("reached goal: " + myNavMeshAgent.remainingDistance + " :: " + GoalPoint.transform.position);
+        //if the goal point is too close to 0,0,0, the enemy will be destroyed while instantiating, watch out!
+        WaveSpawner.EnemiesAlive--;
+        Debug.Log("enemies alive: " + WaveSpawner.EnemiesAlive);
+        DestroyImmediate(myNavMeshAgent.gameObject);
     }
 
     private void SpawnNavMeshAgent ()
         {
-            myNavMeshAgent = GetComponent<NavMeshAgent> ();
+        myNavMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
             myNavMeshAgent.SetDestination(GoalPoint.transform.position);
 
         }

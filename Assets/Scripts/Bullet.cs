@@ -65,7 +65,12 @@ public class Bullet : MonoBehaviour
 
     void Damage(Transform enemy)
     {
-        Destroy(enemy.gameObject);
+        EnemyAgent e = enemy.GetComponent<EnemyAgent>();
+
+        if (e != null)
+        {
+            e.TakeDamage();
+        }
     }
 
     void OnDrawGizmosSelected()

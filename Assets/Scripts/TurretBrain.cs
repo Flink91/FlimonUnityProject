@@ -18,10 +18,6 @@ public class TurretBrain : MonoBehaviour
     // this will eat resources if set too low
     private float fireCountdown = 0.2f;
 
-    [Header("Use Laser")]
-    public bool useLaser = false;
-    public LineRenderer lineRenderer;
-
     [Header("Unity Setup Fields")]
 
     public string enemyTag = "Enemy";
