@@ -62,8 +62,11 @@ public class WaveSpawner : MonoBehaviour
 
 	void SpawnEnemy (GameObject enemy)
 	{
+		//randomize spawn point a bit
+		float rnd = Random.Range(-2.0f, 2.0f);
+		Vector3 spawnPos = new Vector3 (spawnPoint.position.x + rnd, spawnPoint.position.y + rnd, spawnPoint.position.z);
 
-		var newEnemy = Instantiate(enemy, spawnPoint.position, spawnPoint.rotation);
+		var newEnemy = Instantiate(enemy, spawnPos, spawnPoint.rotation);
         newEnemy.transform.parent = GameObject.Find("Enemies").transform;
 		EnemiesAlive++;
 	}
