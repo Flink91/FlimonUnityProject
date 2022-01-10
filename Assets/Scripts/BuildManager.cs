@@ -24,7 +24,7 @@ public class BuildManager : MonoBehaviour {
 	}
 
     public GameObject standardTurretPrefab;
-	public GameObject anotherTurretPrefab;
+	public GameObject turtleTurretPrefab;
 
 	private TurretBlueprint turretToBuild;
 	private Node selectedNode;

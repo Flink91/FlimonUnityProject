@@ -4,7 +4,7 @@ public class Shop : MonoBehaviour
 {
 
 	public TurretBlueprint standardTurret;
-	public TurretBlueprint anotherTurret;
+	public TurretBlueprint turtleTurret;
 
 	BuildManager buildManager;
 
@@ -19,10 +19,10 @@ public class Shop : MonoBehaviour
 		buildManager.SelectTurretToBuild(standardTurret);
 	}
 
-	public void SelectAnotherTurret()
+	public void SelectTurtleTurret()
 	{
-		Debug.Log("Another Turret Selected");
-		buildManager.SelectTurretToBuild(anotherTurret);
+		Debug.Log("Turtle Turret Selected");
+		buildManager.SelectTurretToBuild(turtleTurret);
 	}
 
 }

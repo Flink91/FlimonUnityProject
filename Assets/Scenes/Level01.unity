@@ -503,6 +503,18 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 407120856, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectTurtleTurret
+      objectReference: {fileID: 0}
+    - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
+      propertyPath: turtleTurret.cost
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
+      propertyPath: turtleTurret.prefab
+      value: 
+      objectReference: {fileID: 8238022779771928517, guid: 242cd3aac4807c34ca8f749f345820b1, type: 3}
     - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
       propertyPath: anotherTurret.prefab
       value: 
@@ -512,6 +524,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5711041350259998110, guid: 3ef24ed17f3457449b61b2a533032cc1, type: 3}
     - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
+      propertyPath: turtleTurret.upgradeCost
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
       propertyPath: anotherTurret.upgradeCost
       value: 80
       objectReference: {fileID: 0}
@@ -519,6 +535,10 @@ PrefabInstance:
       propertyPath: standardTurret.upgradeCost
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
+      propertyPath: turtleTurret.upgradedPrefab
+      value: 
+      objectReference: {fileID: 8238022779771928517, guid: e99074fbf3744f04393f9dd2341a68ec, type: 3}
     - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
       propertyPath: anotherTurret.upgradedPrefab
       value: 
@@ -7818,8 +7838,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b931d876925bf5a4fb236ef46827186a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standardTurretPrefab: {fileID: 8238022779771928517, guid: 242cd3aac4807c34ca8f749f345820b1, type: 3}
-  anotherTurretPrefab: {fileID: 8238022779771928517, guid: 242cd3aac4807c34ca8f749f345820b1, type: 3}
+  standardTurretPrefab: {fileID: 5711041350259998110, guid: 3ef24ed17f3457449b61b2a533032cc1, type: 3}
+  turtleTurretPrefab: {fileID: 8238022779771928517, guid: 242cd3aac4807c34ca8f749f345820b1, type: 3}
   turretUI: {fileID: 1081171167}
 --- !u!114 &939404919
 MonoBehaviour:
