@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0033ba80adb25945aaca1fdbe749339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 8
+  range: 9
   fireRate: 0.5
   retargetRate: 0.5
   enemyTag: Enemy

@@ -456,6 +456,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 203915538, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
+      propertyPath: m_text
+      value: Mech Turret (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 203915538, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 2a6f3ae44b101f442b2bbd565b122a60, type: 2}
@@ -506,7 +510,7 @@ PrefabInstance:
     - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
       propertyPath: standardTurret.prefab
       value: 
-      objectReference: {fileID: 8238022779771928517, guid: 242cd3aac4807c34ca8f749f345820b1, type: 3}
+      objectReference: {fileID: 5711041350259998110, guid: 3ef24ed17f3457449b61b2a533032cc1, type: 3}
     - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
       propertyPath: anotherTurret.upgradeCost
       value: 80
@@ -522,7 +526,11 @@ PrefabInstance:
     - target: {fileID: 1120010725, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
       propertyPath: standardTurret.upgradedPrefab
       value: 
-      objectReference: {fileID: 8238022779771928517, guid: e99074fbf3744f04393f9dd2341a68ec, type: 3}
+      objectReference: {fileID: 5711041350259998110, guid: da7a3ccbb95346a4ba3d0454f8520cd3, type: 3}
+    - target: {fileID: 1177817643, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
+      propertyPath: m_text
+      value: Turtle (20)
+      objectReference: {fileID: 0}
     - target: {fileID: 1177817643, guid: efe225e6c46b94a4a85baaae3439e3bb, type: 3}
       propertyPath: m_fontAsset
       value: 
