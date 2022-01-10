@@ -8950,6 +8950,7 @@ MonoBehaviour:
   ui: {fileID: 823704370}
   upgradeCost: {fileID: 848337200}
   upgradeButton: {fileID: 1114657896}
+  sellAmount: {fileID: 1832587018}
 --- !u!1001 &1088049161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12907,7 +12908,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1081171167}
         m_TargetAssemblyTypeName: TurretUI, Assembly-CSharp
-        m_MethodName: Upgrade
+        m_MethodName: Sell
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
