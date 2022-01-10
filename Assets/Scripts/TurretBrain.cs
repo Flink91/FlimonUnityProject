@@ -7,23 +7,23 @@ public class TurretBrain : MonoBehaviour
 
     private Transform target = null;
 
-    [Header("Attributes")]
+    [Header("General")]
 
     public float range = 15f;
+    public float retargetRate = 0.5f;
+
+    [Header("Use Bullets (default)")]
+    public GameObject bulletPrefab;
     public float fireRate = 1f;
     // this will eat resources if set too low
-    public float retargetRate = 0.5f;
     private float fireCountdown = 0.2f;
 
-
-    [Header("Setup")]
+    [Header("Unity Setup Fields")]
 
     public string enemyTag = "Enemy";
 
     public Transform partToRotate;
     public float turnSpeed = 10f;
-
-    public GameObject bulletPrefab;
     public Transform firePoint;
 
 
