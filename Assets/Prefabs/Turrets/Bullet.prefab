@@ -109,4 +109,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  impactEffect: {fileID: 3353682451245781652, guid: 548a93deb683a69429252644d8564f70, type: 3}
   explosionRadius: 0
