@@ -1745,7 +1745,7 @@ GameObject:
   - component: {fileID: 214666008}
   - component: {fileID: 214666007}
   m_Layer: 5
-  m_Name: RetryButton
+  m_Name: NextButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1827,9 +1827,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1679194635}
-        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
-        m_MethodName: Retry
+      - m_Target: {fileID: 1679194636}
+        m_TargetAssemblyTypeName: CompleteLevel, Assembly-CSharp
+        m_MethodName: Continue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2425,7 +2425,7 @@ GameObject:
   - component: {fileID: 286683775}
   - component: {fileID: 286683774}
   m_Layer: 5
-  m_Name: GameOverText
+  m_Name: CompleteText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3274,6 +3274,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4770126482422150712, guid: 76a3982b769e0334bb073d32ef5a9b01, type: 3}
   m_PrefabInstance: {fileID: 392513557}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &397865964 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4539805943881565028, guid: 53809c30a2de3324c8cca0eb54a1d618, type: 3}
+  m_PrefabInstance: {fileID: 1110881799}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd4694dbc9e342e49b68cdd2a0c6d637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &400742244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3904,8 +3915,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1679194635}
-        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+      - m_Target: {fileID: 1679194636}
+        m_TargetAssemblyTypeName: CompleteLevel, Assembly-CSharp
         m_MethodName: Menu
         m_Mode: 1
         m_Arguments:
@@ -5769,7 +5780,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: RETRY
+  m_text: NEXT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7532,7 +7543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 500
-  startLives: 20
+  startLives: 1
 --- !u!114 &939404917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14063,7 +14074,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1679194634}
-  - component: {fileID: 1679194635}
   - component: {fileID: 1679194636}
   m_Layer: 5
   m_Name: Complete
@@ -14097,7 +14107,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -0.000061035, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1679194635
+--- !u!114 &1679194636
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14106,31 +14116,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1679194633}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2718192bca958944bb8e44778a29b03, type: 3}
+  m_Script: {fileID: 11500000, guid: af18fc6e3e28ecb4c86ea8835c967dfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roundsText: {fileID: 261562323}
   menuSceneName: MainMenu
-  sceneFader: {fileID: 0}
---- !u!95 &1679194636
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679194633}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6d9ee09d170fd7e41901be9563afb945, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  nextLevel: Level02
+  levelToUnlock: 2
+  sceneFader: {fileID: 397865964}
 --- !u!1001 &1681332321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18060,6 +18052,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -50
       objectReference: {fileID: 0}
+    - target: {fileID: 8186527365081185673, guid: 6051d830a6f7b4d498ebe8d99f25be62, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8186527365081185675, guid: 6051d830a6f7b4d498ebe8d99f25be62, type: 3}
+      propertyPath: sceneFader
+      value: 
+      objectReference: {fileID: 397865964}
     - target: {fileID: 8186527365230469890, guid: 6051d830a6f7b4d498ebe8d99f25be62, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

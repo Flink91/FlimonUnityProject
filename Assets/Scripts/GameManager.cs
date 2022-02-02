@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 	public GameObject gameOverUI;
 	public GameObject completeLevelUI;
 
+
+
 	private void Start()
     {
 		GameIsOver = false;
@@ -40,9 +42,6 @@ public class GameManager : MonoBehaviour
 
 	public void WinLevel()
 	{
-		Debug.Log("LEVEL WON!");
-		//PlayerPrefs.SetInt("levelReached", levelToUnlock);
-		//sceneFader.FadeTo(nextLevel);
 		GameIsOver = true;
 		completeLevelUI.SetActive(true);
 	}
