@@ -26,7 +26,7 @@ public class SceneFader : MonoBehaviour
 		while (t > 0f)
 		{
 			// deltaTime works because it's in IEnumerator
-			t -= Time.deltaTime;
+			t -= (Time.deltaTime * 1.5f);
 			float a = curve.Evaluate(t);
 			img.color = new Color(0f, 0f, 0f, a);
 			//wait a frame then continue
@@ -40,7 +40,7 @@ public class SceneFader : MonoBehaviour
 
 		while (t < 1f)
 		{
-			t += Time.deltaTime;
+			t -= (Time.deltaTime * 1.5f);
 			float a = curve.Evaluate(t);
 			img.color = new Color(0f, 0f, 0f, a);
 			yield return 0;
