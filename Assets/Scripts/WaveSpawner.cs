@@ -20,6 +20,7 @@ public class WaveSpawner : MonoBehaviour
 
 	public GameManager gameManager;
 
+
 	private int waveIndex = 0;
 
 
@@ -51,6 +52,8 @@ public class WaveSpawner : MonoBehaviour
 
 		Wave wave = waves[waveIndex];
 
+		EnemiesAlive = wave.count;
+
 		for (int i = 0; i < wave.count; i++)
 		{
 			SpawnEnemy(wave.enemy);
@@ -68,7 +71,6 @@ public class WaveSpawner : MonoBehaviour
 
 		var newEnemy = Instantiate(enemy, spawnPos, spawnPoint.rotation);
         newEnemy.transform.parent = GameObject.Find("Enemies").transform;
-		EnemiesAlive++;
 	}
 
 }

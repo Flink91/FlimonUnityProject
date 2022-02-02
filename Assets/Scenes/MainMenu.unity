@@ -5765,6 +5765,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneFader
       objectReference: {fileID: 0}
+    - target: {fileID: 4539805943881565028, guid: 53809c30a2de3324c8cca0eb54a1d618, type: 3}
+      propertyPath: curve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539805943881565028, guid: 53809c30a2de3324c8cca0eb54a1d618, type: 3}
+      propertyPath: curve.m_Curve.Array.data[0].inSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539805943881565028, guid: 53809c30a2de3324c8cca0eb54a1d618, type: 3}
+      propertyPath: curve.m_Curve.Array.data[1].inSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539805943881565028, guid: 53809c30a2de3324c8cca0eb54a1d618, type: 3}
+      propertyPath: curve.m_Curve.Array.data[0].outSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539805943881565028, guid: 53809c30a2de3324c8cca0eb54a1d618, type: 3}
+      propertyPath: curve.m_Curve.Array.data[1].outSlope
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539805943881565028, guid: 53809c30a2de3324c8cca0eb54a1d618, type: 3}
+      propertyPath: curve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539805943881565028, guid: 53809c30a2de3324c8cca0eb54a1d618, type: 3}
+      propertyPath: curve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
     - target: {fileID: 4539805943881565029, guid: 53809c30a2de3324c8cca0eb54a1d618, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -13772,6 +13800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fader: {fileID: 979947700}
+  levelButtons: []
 --- !u!4 &1852316520
 Transform:
   m_ObjectHideFlags: 0

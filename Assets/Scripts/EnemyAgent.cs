@@ -10,6 +10,8 @@ public class EnemyAgent : MonoBehaviour
     public GameObject GoalPoint;
     UnityEngine.AI.NavMeshAgent myNavMeshAgent;
 
+    private bool isDead = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +47,7 @@ public class EnemyAgent : MonoBehaviour
 
     void Die()
     {
+        isDead = true;
         Debug.Log("reached goal: " + myNavMeshAgent.remainingDistance + " :: " + GoalPoint.transform.position);
         //if the goal point is too close to 0,0,0, the enemy will be destroyed while instantiating, watch out!
         WaveSpawner.EnemiesAlive--;
