@@ -4,12 +4,12 @@ using UnityEngine.SceneManagement;
 public class LevelSelector : MonoBehaviour
 {
 
-	// public SceneFader fader;
+	public SceneFader fader;
 
 	public void Select(string levelName)
 	{
-		// fader.FadeTo(levelName);
-		SceneManager.LoadScene(levelName);
+		 fader.FadeTo(levelName);
+		
 	}
 
 }
