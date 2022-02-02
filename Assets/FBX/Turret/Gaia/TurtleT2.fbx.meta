@@ -1,26 +1,8 @@
 fileFormatVersion: 2
-guid: 328ea0b88d76fb84cbaf7338a5ca2d87
+guid: e9107a4c8866fdf479b7438520e242d1
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable:
-  - first:
-      74: -8796594389092191625
-    second: Armature|0Default
-  - first:
-      74: 4385343803845142664
-    second: Armature|DoorOpen
-  - first:
-      74: -6407003545374296427
-    second: Armature|IdleOpen
-  - first:
-      74: 8377864411202568914
-    second: Pirate|0Default
-  - first:
-      74: 8087169373888195279
-    second: Pirate|DoorOpen
-  - first:
-      74: -8491223180229098244
-    second: Pirate|IdleOpen
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 0

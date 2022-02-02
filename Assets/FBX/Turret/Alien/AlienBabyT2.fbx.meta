@@ -1,26 +1,17 @@
 fileFormatVersion: 2
-guid: 328ea0b88d76fb84cbaf7338a5ca2d87
+guid: 8d13c7da9aa203d4abfbe4ef2ebc0fd7
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: -8796594389092191625
-    second: Armature|0Default
+      74: 4168061466282507098
+    second: AlienBabyT2|0Default
   - first:
-      74: 4385343803845142664
-    second: Armature|DoorOpen
+      74: -925894154129565658
+    second: AlienBabyT2|Attack
   - first:
-      74: -6407003545374296427
-    second: Armature|IdleOpen
-  - first:
-      74: 8377864411202568914
-    second: Pirate|0Default
-  - first:
-      74: 8087169373888195279
-    second: Pirate|DoorOpen
-  - first:
-      74: -8491223180229098244
-    second: Pirate|IdleOpen
+      74: 4761278311950832309
+    second: AlienBabyT2|Idle
   externalObjects: {}
   materials:
     materialImportMode: 0
