@@ -10,14 +10,20 @@ public class GameOver : MonoBehaviour
 
 	public SceneFader sceneFader;
 
+	void OnEnable()
+	{
+		FindObjectOfType<AudioManager>().Play("Lost");
+	}
+
 	public void Retry()
 	{
-		Debug.Log("hallo");
+		FindObjectOfType<AudioManager>().Play("Click");
 		sceneFader.FadeTo(SceneManager.GetActiveScene().name);
     }
 	
 	public void Menu()
 	{
+		FindObjectOfType<AudioManager>().Play("Click");
 		sceneFader.FadeTo(menuSceneName);
 	}
 

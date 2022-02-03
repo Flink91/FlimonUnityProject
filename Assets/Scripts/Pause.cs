@@ -34,6 +34,7 @@ public class Pause : MonoBehaviour
 
 	public void Retry()
 	{
+		FindObjectOfType<AudioManager>().Play("Click");
 		Toggle();
 		sceneFader.FadeTo(SceneManager.GetActiveScene().name);
 	}
@@ -41,6 +42,7 @@ public class Pause : MonoBehaviour
 
 	public void Menu()
 	{
+		FindObjectOfType<AudioManager>().Play("Click");
 		Toggle();
 		sceneFader.FadeTo(menuSceneName);
 

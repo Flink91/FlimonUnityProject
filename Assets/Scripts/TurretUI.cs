@@ -32,7 +32,7 @@ public class TurretUI : MonoBehaviour
         }
 
         sellAmount.text = "$" + target.turretBlueprint.GetSellAmount();
-
+        FindObjectOfType<AudioManager>().Play("Click");
         ui.SetActive(true);
     }
 
@@ -42,6 +42,8 @@ public class TurretUI : MonoBehaviour
     }
     public void Upgrade()
     {
+        FindObjectOfType<AudioManager>().Play("Build");
+
         target.UpgradeTurret();
         BuildManager.instance.DeselectNode();
     }
