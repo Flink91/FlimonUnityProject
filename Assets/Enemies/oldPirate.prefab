@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5278719774716064667}
   - component: {fileID: 4203201576034215920}
   m_Layer: 0
-  m_Name: EnemyPirate
+  m_Name: oldPirate
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103,6 +103,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4779652602477308678}
     m_Modifications:
+    - target: {fileID: 222738947821443484, guid: bb0e3335f89ce974f96c705631db27bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 222738947821443484, guid: bb0e3335f89ce974f96c705631db27bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 222738947821443484, guid: bb0e3335f89ce974f96c705631db27bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3597407468662553975, guid: bb0e3335f89ce974f96c705631db27bd, type: 3}
       propertyPath: m_Name
       value: Pirate_Base
@@ -149,6 +161,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4226451937371334605, guid: bb0e3335f89ce974f96c705631db27bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050658296385271635, guid: bb0e3335f89ce974f96c705631db27bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050658296385271635, guid: bb0e3335f89ce974f96c705631db27bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050658296385271635, guid: bb0e3335f89ce974f96c705631db27bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6926350638839342592, guid: bb0e3335f89ce974f96c705631db27bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6926350638839342592, guid: bb0e3335f89ce974f96c705631db27bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6926350638839342592, guid: bb0e3335f89ce974f96c705631db27bd, type: 3}
+      propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

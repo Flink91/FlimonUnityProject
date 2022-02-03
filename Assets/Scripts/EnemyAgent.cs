@@ -25,7 +25,7 @@ public class EnemyAgent : MonoBehaviour
         // }
 
         //look in right direction
-        this.transform.rotation = Quaternion.LookRotation(myNavMeshAgent.velocity, Vector3.up) * Quaternion.Euler(0,180f,0);
+        this.transform.rotation = Quaternion.LookRotation(myNavMeshAgent.velocity, Vector3.up);// * Quaternion.Euler(0,180f,0);
         //Vector3 dir = GoalPoint.transform.position - transform.position;
         //dir.y = 0;//This allows the object to only rotate on its y axis
 
