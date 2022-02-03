@@ -15,6 +15,7 @@ public class CompleteLevel : MonoBehaviour
 	void OnEnable()
 	{
 		FindObjectOfType<AudioManager>().Play("Complete");
+		FindObjectOfType<AudioManager>().StopPlaying("Music1");
 	}
 
 	public void Continue()

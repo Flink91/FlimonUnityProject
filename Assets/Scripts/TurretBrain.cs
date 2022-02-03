@@ -22,7 +22,8 @@ public class TurretBrain : MonoBehaviour
 
     public string enemyTag = "Enemy";
 
-    public Transform partToRotate;
+    [Header("Optional")]
+    public Transform partToRotate = null;
     public float turnSpeed = 10f;
     public Transform firePoint;
 
@@ -69,11 +70,14 @@ public class TurretBrain : MonoBehaviour
 
         //Target lock on
         Vector3 dir = target.position - transform.position;
-        Quaternion lookRotation = Quaternion.LookRotation(-dir);
+        Quaternion lookRotation = Quaternion.LookRotation(dir);
 
         //smoothly rotate to the next target with lerp
-        Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
-        partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+        if (partToRotate != null)
+        {
+            Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
+            partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+        }
 
         if (fireCountdown <= 0f)
         {

@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 6215707183127105226}
   m_Layer: 0
   m_Name: PirateEnemyPrefab
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

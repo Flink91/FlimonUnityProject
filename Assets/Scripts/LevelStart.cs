@@ -8,8 +8,6 @@ public class LevelStart : MonoBehaviour
     public Animation camIntroAnimation;
     public GameObject ui;
 
-    private bool animEnded = false;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +22,6 @@ public class LevelStart : MonoBehaviour
 
     public void IntroEndEvent()
     {
-        animEnded = true;
         ui.SetActive(true);
     }
 }
