@@ -8,7 +8,12 @@ public class MainMenu : MonoBehaviour
 
 	public string levelToLoad = "LevelSelect";
 
-	public void Play()
+
+    private void Awake()
+    {
+		FindObjectOfType<AudioManager>().Play("Music1");
+	}
+    public void Play()
 	{
 		sceneFader.FadeTo(levelToLoad);
 	}
