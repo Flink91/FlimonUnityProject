@@ -48,6 +48,8 @@ public class WaveSpawner : MonoBehaviour
 
 	IEnumerator SpawnWave()
 	{
+
+		FindObjectOfType<AudioManager>().Play("WaveStart");
 		PlayerStats.Rounds++;
 
 		Wave wave = waves[waveIndex];

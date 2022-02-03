@@ -12,14 +12,21 @@ public class CompleteLevel : MonoBehaviour
 
 	public SceneFader sceneFader;
 
+	void OnEnable()
+	{
+		FindObjectOfType<AudioManager>().Play("Complete");
+	}
+
 	public void Continue()
 	{
+		FindObjectOfType<AudioManager>().Play("Click");
 		PlayerPrefs.SetInt("levelReached", levelToUnlock);
 		sceneFader.FadeTo(nextLevel);
 	}
 
 	public void Menu()
 	{
+		FindObjectOfType<AudioManager>().Play("Click");
 		sceneFader.FadeTo(menuSceneName);
 	}
 
