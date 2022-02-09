@@ -29,6 +29,8 @@ public class SceneFader : MonoBehaviour
 			t -= Time.deltaTime * 2f;
 			float a = curve.Evaluate(t);
 			img.color = new Color(0f, 0f, 0f, a);
+			// reset the time to normal
+			Time.timeScale = 1f;
 			//wait a frame then continue
 			yield return 0;
 		}

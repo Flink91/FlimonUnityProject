@@ -76,7 +76,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 6
   retargetRate: 0.5
-  bulletPrefab: {fileID: 3170987320901771035, guid: e64a0c4db432ebc4296f9078fc0dde53, type: 3}
+  bulletPrefab: {fileID: 4239612877909225518, guid: 9b37b1ed029d37a47bbdf2ea62163ba0, type: 3}
+  bulletType: bullet
   fireRate: 1
   enemyTag: Enemy
   partToRotate: {fileID: 8084717730077231167}
