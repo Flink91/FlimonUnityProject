@@ -14,6 +14,7 @@ public class TurretBrain : MonoBehaviour
 
     [Header("Use Bullets (default)")]
     public GameObject bulletPrefab;
+    public string bulletType = "bullet";
     public float fireRate = 1f;
     // this will eat resources if set too low
     private float fireCountdown = 0.2f;
@@ -93,11 +94,22 @@ public class TurretBrain : MonoBehaviour
     {
         //spawn bullet and set target
         GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        Bullet bullet = bulletGO.GetComponent<Bullet>();
 
-        if (bullet != null)
+        if (bulletType == "bullet")
         {
-            bullet.Seek(target);
+            Bullet bullet = bulletGO.GetComponent<Bullet>();
+            if (bullet != null)
+            {
+                bullet.Seek(target);
+            }
+        }
+        else
+        {
+            Missile missile = bulletGO.GetComponent<Missile>();
+            if (missile != null)
+            {
+                missile.Seek(target);
+            }
         }
     }
 
