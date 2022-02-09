@@ -9,9 +9,15 @@ public class Bullet : MonoBehaviour
     public GameObject impactEffect;
     public float explosionRadius = 0f;
 
+    private float missileStartTime = 1f;
     public void Seek(Transform _target)
     {
         target = _target;
+    }
+
+    private void Start()
+    {
+        missileStartTime = 1f;
     }
 
     // Update is called once per frame
@@ -41,7 +47,18 @@ public class Bullet : MonoBehaviour
         if (explosionRadius > 0)
         {
             // dir.Normalize();
-            float rotateAmount = Vector3.Cross(dir, transform.up).z;
+            if (missileStartTime >= 0)
+            {
+                Debug.Log("up up");
+                missileStartTime -= Time.deltaTime;
+                // float rotateAmount = Vector3.Cross(dir, transform.up).z;
+                transform.Translate(Vector3.up * Time.deltaTime * (speed/2), Space.World);
+            }
+            else
+            {
+                transform.Translate(dir.normalized * distanceThisFrame, Space.World);
+                transform.LookAt(target);
+            }
         }
         else
         {

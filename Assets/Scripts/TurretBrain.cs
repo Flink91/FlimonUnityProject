@@ -95,22 +95,13 @@ public class TurretBrain : MonoBehaviour
         //spawn bullet and set target
         GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
-        if (bulletType == "bullet")
-        {
+       
             Bullet bullet = bulletGO.GetComponent<Bullet>();
             if (bullet != null)
             {
                 bullet.Seek(target);
             }
-        }
-        else
-        {
-            Missile missile = bulletGO.GetComponent<Missile>();
-            if (missile != null)
-            {
-                missile.Seek(target);
-            }
-        }
+        
     }
 
     //an easy way to show the range in editor
