@@ -19,6 +19,11 @@ public class Bullet : MonoBehaviour
     {
         if (target == null)
         {
+            // if missile loses target, explode
+            if(explosionRadius > 0)
+            {
+                HitTarget();
+            }
             Destroy(gameObject);
             return;
         }
@@ -32,8 +37,17 @@ public class Bullet : MonoBehaviour
             return;
         }
 
-        transform.Translate(dir.normalized * distanceThisFrame, Space.World);
-        transform.LookAt(target);
+
+        if (explosionRadius > 0)
+        {
+            // dir.Normalize();
+            float rotateAmount = Vector3.Cross(dir, transform.up).z;
+        }
+        else
+        {
+            transform.Translate(dir.normalized * distanceThisFrame, Space.World);
+            transform.LookAt(target);
+        }
     }
 
     void HitTarget()
