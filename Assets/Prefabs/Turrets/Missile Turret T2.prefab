@@ -77,6 +77,7 @@ MonoBehaviour:
   range: 20
   retargetRate: 0.5
   bulletPrefab: {fileID: 3170987320901771035, guid: e059d84f777313243a9eb9e2d603d805, type: 3}
+  bulletType: missile
   fireRate: 0.2
   enemyTag: Enemy
   partToRotate: {fileID: 0}

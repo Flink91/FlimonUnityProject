@@ -74,9 +74,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0033ba80adb25945aaca1fdbe749339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 16
+  range: 113.39
   retargetRate: 0.5
-  bulletPrefab: {fileID: 3170987320901771035, guid: e059d84f777313243a9eb9e2d603d805, type: 3}
+  bulletPrefab: {fileID: 1040749257905311667, guid: c617c80a4007e5e4c9de7472bb34501c, type: 3}
+  bulletType: missile
   fireRate: 0.2
   enemyTag: Enemy
   partToRotate: {fileID: 0}
